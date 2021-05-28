@@ -21,8 +21,9 @@ public class MainMenu : MonoBehaviour
 
         if (currentScene.name == "Menu")
         {
-            AudioManager.instance.StopPlaying("End");
             AudioManager.instance.Play("Start");
+            AudioManager.instance.StopPlaying("End");
+            
         }
         
     }
