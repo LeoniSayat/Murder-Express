@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8846200196050408704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1283058423364715489, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: f4887c0c641bd1b4fac80120b8f110ef, type: 2}
+    - target: {fileID: 2345511100543517653, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1811457567064057360, guid: a8390a8001039ae4db31d3b43ecf1255, type: 3}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: IsDiary
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: dialogue.name
+      value: Train Handbook
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: entries.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: entries.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: entries.Array.data[2]
+      value: 'From reading the Train Handbook:
+
+        The frequency to contact
+        the police is 450 MHz.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: entries.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'PREFACE TO SECOND EDITION
+
+        During the decade since the first
+        edition of this handbook was presented, there have been many changes in railway
+        practice. Urgent necessity for the most economical operation has resulted
+        in more rapid development.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "Railway Location\nThe following extracts from the section on \"Economics
+        of Railway Location\" apply to steam as well as to electric railways. Locating
+        a railway means designing an economical plant for handling a given track.
+        \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'Radio
+
+        Unlike other steam-powered trains, the Dolofonia is
+        equipped with a two-way communication radio that operates on the UHf Band.
+        To contact the police in the case of an emergency, use the 450 MHz frequency.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010107936298537907, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: "Wheels\r\nThe first essential of a good wheel is that it should be
+        in perfect balance, and run perfectly true. The necessity for this, as well
+        as for good lubrication, is due to the location at the end of a long and
+        flexible pole, and to the high speeds. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267284550965917001, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: header
+      value: Train Hanbook
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267284550965917001, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: content
+      value: It's surprisingly thin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46076244
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713362012578226788, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8486039838124158638, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}
+      propertyPath: m_Name
+      value: Train Handbook Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eedc93924cd978b4f84c6ea7ed39605b, type: 3}

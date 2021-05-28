@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3010107936298537907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486039838124158638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40d65891221a1b44db00230e18d436dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsDiary: 1
+  entries:
+  - "From Abraham's Diary: \nAbraham's wife was named Dolofonia."
+  - 
+  - 
+  - "From Abraham's Diary: \nWho is the 'she' that was threatening him with some
+    mistake he had done?"
+  - 
+  - 
+  - 
+  IsUserInput: 0
+  dialogue:
+    name: Abraham's Diary
+    sentences:
+    - "A couple pages seem to be dog eared, and you flip through them.\r\n6/3/--
+      - It\u2019s finally happened! I\u2019ve finally gotten married to Dolofonia,
+      my sweet sparrow. We even had our favorite drink at the wedding, which happens
+      to share her pet name.  I want to write about every single day I get to spend
+      with her along with writing my dreams."
+    - 12/3 - The bond between us slowly deteriorated, and I did nothing to resolve
+      it. I always needed to do what I needed to do in order to provide for us, but
+      her desires compounded despite our dire poverty.
+    - "12/5/1915 - It's been 10 years since that horrid day and the last time I picked
+      this diary up. I didn\u2019t mean to, nor did I want to.  Can you forgive me,
+      my little sparrow, after all this time? You were always so free-spirited--
+      like you wanted to fly across the country. I\u2019ll realize the dream that
+      you couldn\u2019t. "
+    - "6/3/1920 -- After 5 long years, the Dolofonia is on its first trip today,
+      marking our 31st wedding anniversary, and I should be happy, but I\u2019m constantly
+      on edge. I'm trying to lock away everything I own.  Somehow *she* knows about
+      what happened. What does she want fro..\r"
+    - 'Start of Dream Diary:'
+    - "6/3/ -- - My dream was rather strange last night:\r\nA cat comes back from
+      hunting mice to a grimy alley, and brings a few grains for an injured sparrow
+      to eat. The sparrow is bewildered and thankful.\r"
+    - "11/28/ -- - It\u2019s been a while since I\u2019ve seen the sparrow and cat
+      in my dreams:\r\nOne day, the sparrow grows tired of the grains and asks for
+      berries, and then jam, then sweet bread; the cat complies with the harder requests
+      each time, eventually failing when the sparrow asks for a pie.\r\n"
+    - '12/15/05 -- This is my shortest dream with the cat and the sparrow:
+
+      The
+      cat called the sparrow, whose wing had healed, to follow it through the alley
+      into the sewers. The pair traveled for a few days and eventually, the sparrow
+      dropped to the ground from exhaustion. The cat quickly abandoned the sparrow.
+
+'
+  UserAnswer: 
+  CorrectText: 
+  WrongText: 
+  IsBarista: 0
+  IsLever: 0
+  IsRadio: 0
+  ObjectRevealed: {fileID: 0}
+  PlaysOnStart: 0
+  PlaysOnNext: 1
+  PlaysOnEnter: 0
+  SoundName: PageFlip
+--- !u!1001 &6876469772245721745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46076244
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 691301189181446104, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: header
+      value: A Dead Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 691301189181446104, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: content
+      value: It's covered in blood.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074367099961789503, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Name
+      value: Diary
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665658097995145584, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 97605ccced31b074bae9cea6d603754a, type: 2}
+    - target: {fileID: 8241048461310385506, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: itemPickup
+      value: 
+      objectReference: {fileID: 1283058423364715489}
+    - target: {fileID: 9215153428488724804, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3613768459190833633, guid: 27e7a4b2364624e4c93c5dc8bb617586, type: 3}
+    - target: {fileID: 9215153428488724804, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+--- !u!1 &8486039838124158638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3074367099961789503, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+  m_PrefabInstance: {fileID: 6876469772245721745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1283058423364715489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5665658097995145584, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+  m_PrefabInstance: {fileID: 6876469772245721745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486039838124158638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d744f605fd773498c593033ad8643f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

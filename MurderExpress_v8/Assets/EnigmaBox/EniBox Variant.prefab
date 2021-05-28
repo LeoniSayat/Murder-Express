@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5285015528208616395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303667757308566419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edcdbd2d6bf3de44e837d734707aac41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3842165352376768428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46076244
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 510611974689766563, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 510611974689766563, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 691301189181446104, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: header
+      value: Enigma Puzzle Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 691301189181446104, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: content
+      value: It's a little heavy and by shaking it, it seems that there might be
+        a book inside.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074367099961789503, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Name
+      value: EniBox Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665658097995145584, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: ab477199c96ccf842aa203e470e9e9dc, type: 2}
+    - target: {fileID: 8241048461310385506, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: itemPickup
+      value: 
+      objectReference: {fileID: 8931318717450286812}
+    - target: {fileID: 9215153428488724804, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e9854f9443095b444ad4db51ed631695, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+--- !u!1 &2303667757308566419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3074367099961789503, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+  m_PrefabInstance: {fileID: 3842165352376768428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8931318717450286812 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5665658097995145584, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+  m_PrefabInstance: {fileID: 3842165352376768428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303667757308566419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d744f605fd773498c593033ad8643f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

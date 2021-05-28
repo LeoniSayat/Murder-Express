@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc8a2674133ee54bbc4adc3392f97b6, type: 3}
+  m_Name: EnigmaBox
+  m_EditorClassIdentifier: 
+  name: EnigmaBox
+  icon: {fileID: 1573795187996373504, guid: e9854f9443095b444ad4db51ed631695, type: 3}
+  gameObject: {fileID: 2303667757308566419, guid: 663afb83939579d4b8de9a3d82bbc27c, type: 3}

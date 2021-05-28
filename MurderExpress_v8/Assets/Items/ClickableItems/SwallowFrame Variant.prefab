@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8973266004187891580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 61660873236198917, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: spriteDisplayed
+      value: 
+      objectReference: {fileID: 21300000, guid: 2156acde069fef64eb391444aee0af9a, type: 3}
+    - target: {fileID: 677882157006054869, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_Name
+      value: SwallowFrame Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46076244
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415773629205473567, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653750817253004617, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653750817253004617, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653750817253004617, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653750817253004617, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050613052480306738, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: header
+      value: Picture Frame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050613052480306738, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: content
+      value: It has a photo of a sparrow and Mrs.Smith written under it. Click to
+        pick up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638525290395863214, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2156acde069fef64eb391444aee0af9a, type: 3}
+    - target: {fileID: 7881999367243417754, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 6a599dc21fea8b24393f3827caf2ea55, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35b3bba0d56fa764abda2e41b2533396, type: 3}

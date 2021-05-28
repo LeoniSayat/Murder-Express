@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4408842680469178863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46076244
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163405008719134965, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 510611974689766563, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 510611974689766563, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 691301189181446104, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: header
+      value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 691301189181446104, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: content
+      value: It unlocks the door to the locomotive.
+      objectReference: {fileID: 0}
+    - target: {fileID: 702547331636950132, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: header
+      value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 702547331636950132, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: content
+      value: test
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535471530395091586, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1619342443083222518, guid: 5b764ac0943e4af4db1c26cfaefe3c98, type: 3}
+    - target: {fileID: 3074367099961789503, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Name
+      value: KeyItem Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665658097995145584, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: d1df87eb4c77b764ba5808c41836275e, type: 2}
+    - target: {fileID: 8241048461310385506, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: itemPickup
+      value: 
+      objectReference: {fileID: 8326923759724439711}
+    - target: {fileID: 8501188083987267226, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: cf1e8bebd3d5f824b9e5125da963af14, type: 2}
+    - target: {fileID: 9215153428488724804, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1619342443083222518, guid: 5b764ac0943e4af4db1c26cfaefe3c98, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+--- !u!114 &8326923759724439711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5665658097995145584, guid: b242a6aa7880edd499de1e20d0669622, type: 3}
+  m_PrefabInstance: {fileID: 4408842680469178863}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d744f605fd773498c593033ad8643f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

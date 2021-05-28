@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927cc3fb95f210443b9ccc3f37201a6a, type: 3}
+  m_Name: TrainHandbook
+  m_EditorClassIdentifier: 
+  name: TrainHandbook
+  icon: {fileID: -1811457567064057360, guid: a8390a8001039ae4db31d3b43ecf1255, type: 3}
+  gameObject: {fileID: 1081000731527838638, guid: 9fd4815d873069340b103373516d0765, type: 3}
+  dTrigger: {fileID: 5981353210017466035, guid: 9fd4815d873069340b103373516d0765, type: 3}
