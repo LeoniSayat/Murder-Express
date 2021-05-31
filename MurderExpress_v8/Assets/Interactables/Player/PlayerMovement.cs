@@ -28,6 +28,11 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Speed", movement.sqrMagnitude);
         }
+        else
+        {
+            animator.SetFloat("Horizontal", 0f);
+            animator.SetFloat("Vertical", 0f);
+        }
         //movement.x = Input.GetAxisRaw("Horizontal");
         //movement.y = Input.GetAxisRaw("Vertical");
 
@@ -42,6 +47,10 @@ public class PlayerMovement : MonoBehaviour
         //{
         //    rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         //}
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (CanMove)
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
+        
     }
 }

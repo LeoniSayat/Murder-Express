@@ -8,6 +8,7 @@ public class GivesDialogue : Interactable
 
   protected override void Interact()
     {
+        FindObjectOfType<DialogueManager>().StopAllCoroutines();
         dTrigger.TriggerDialogue();
     }
 }

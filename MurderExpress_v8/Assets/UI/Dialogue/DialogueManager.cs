@@ -57,6 +57,8 @@ public class DialogueManager : MonoBehaviour
 
     string _soundName;
     string _playCondition;
+
+    //public string CurrentSentence;
     void Awake()
     {
         
@@ -113,11 +115,18 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    
+    public void SkipWrite()
+    {
+        StopAllCoroutines();
+        dialogueText.text = currentSentence;
+    }
     IEnumerator TypeLine(string sentence)
     {
         foreach (char c in sentence.ToCharArray())
         {
             dialogueText.text += c;
+            
             yield return new WaitForSeconds(0.025f);
         }
     }
