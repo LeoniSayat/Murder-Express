@@ -1087,7 +1087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438086, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438087, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_Name
@@ -1934,7 +1934,7 @@ PrefabInstance:
       objectReference: {fileID: 8653739945094589845, guid: 874aeb9f45d3dd844aa4c309a8f67938, type: 3}
     - target: {fileID: 371044711952795230, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1706559424542379185, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_RootOrder
@@ -9776,11 +9776,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438084, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.83
+      value: 6.46
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438084, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.64
+      value: 3.66
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438084, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9820,7 +9820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438086, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 682409122917438087, guid: 5061f678c1ae0f44abce70bd225e922e, type: 3}
       propertyPath: m_Name
@@ -10070,7 +10070,7 @@ PrefabInstance:
       objectReference: {fileID: -7749802302886305619, guid: 7ae8f588e1a9cd04f9dd2f21eb2d1350, type: 3}
     - target: {fileID: 371044711952795230, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1706559424542379185, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_RootOrder
@@ -11023,7 +11023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &642031925
 Transform:
   m_ObjectHideFlags: 0
@@ -11332,7 +11332,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0.25, z: 0}
   m_MaxChunkCount: 16
@@ -15681,7 +15681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630354844343780255, guid: 2227dca50f34eb34a91aabb6bbab97c0, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2227dca50f34eb34a91aabb6bbab97c0, type: 3}
@@ -17391,7 +17391,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.5, y: 0.734375, z: 0}
   m_MaxChunkCount: 16
@@ -20338,6 +20338,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: Richard
   content: He's dancing?
+--- !u!114 &1806416252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806416247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40d65891221a1b44db00230e18d436dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsDiary: 0
+  entries: []
+  IsUserInput: 0
+  dialogue:
+    name: Richard Astley
+    sentences:
+    - We're no strangers to love.
+    - You know the rules, and so do I.
+  UserAnswer: 
+  CorrectText: 
+  WrongText: 
+  IsBarista: 0
+  IsLever: 0
+  IsRadio: 0
+  ObjectRevealed: {fileID: 0}
+  PlaysOnStart: 0
+  PlaysOnNext: 0
+  PlaysOnEnter: 0
+  SoundName: 
+--- !u!114 &1806416253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806416247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61feac58fb6972345b9c5c83a91b19ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dTrigger: {fileID: 1806416252}
 --- !u!1 &1806562481
 GameObject:
   m_ObjectHideFlags: 0
@@ -20823,7 +20867,7 @@ PrefabInstance:
       objectReference: {fileID: 522476148801865499, guid: 5fde3dd110e138c45bfb90836ad7b781, type: 3}
     - target: {fileID: 371044711952795230, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1706559424542379185, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_RootOrder
@@ -22227,7 +22271,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: f75355b0c202f824fab31664de8661a2, type: 3}
     - target: {fileID: 371044711952795230, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1706559424542379185, guid: 6248c120ccba8c9458cfb2ef5e3f0865, type: 3}
       propertyPath: m_RootOrder
@@ -22463,6 +22507,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 8401759926458271146, guid: fb4b969ae0e051b4ea5ae1ab64798bb0, type: 3}
+    - target: {fileID: 4750762662855744593, guid: 3c0d569f437f5af42b0a51e0c5e3511c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4750762662855744593, guid: 3c0d569f437f5af42b0a51e0c5e3511c, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -23833,6 +23881,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1210325436634913000, guid: 27e7a4b2364624e4c93c5dc8bb617586, type: 3}
+    - target: {fileID: 243384899822541420, guid: a2c10af060ef07c4fbed391420aebfe5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6208274656622294807, guid: a2c10af060ef07c4fbed391420aebfe5, type: 3}
       propertyPath: m_Name
       value: CoalShovel

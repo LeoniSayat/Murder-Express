@@ -45,9 +45,15 @@ public class Timer : MonoBehaviour
                 // 1800 -> 1799 -> 1798 -> 1797
                 timeValue -= Time.deltaTime;
                 resetTimeValue += Time.deltaTime;
+
+                if (timeValue < 1)
+                {
+                    Debug.Log(timeValue);
+                }
             }
             else
             {
+                Debug.Log("Game Over");
                 timeValue = 0f;
                 OnLost();
                 SceneManager.LoadScene("GameOver");

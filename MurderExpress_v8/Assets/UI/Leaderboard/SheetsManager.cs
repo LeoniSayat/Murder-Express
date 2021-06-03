@@ -27,13 +27,6 @@ public class SheetsManager : MonoBehaviour
         Usernames.Clear();
         Times.Clear();
 
-        // if (PlayerData.NeedsAddData)
-        // {
-        //     Debug.Log("Need to add data");
-        //     CreateEntry();
-        //     PlayerData.NeedsAddData = false;
-        // }
-
         Google.Apis.Auth.OAuth2.GoogleCredential credential;
         string credentialString = Resources.Load("client_secrets", typeof(TextAsset)).ToString();
         credential = Google.Apis.Auth.OAuth2.GoogleCredential.FromJson(credentialString).CreateScoped(Scopes);
@@ -80,20 +73,5 @@ public class SheetsManager : MonoBehaviour
         }
     }
 
-    static void CreateEntry()
-    {
-        var range = "RawData!A:O";
-        var valueRange = new Google.Apis.Sheets.v4.Data.ValueRange();
-        
-        var objectList = new List<object>() { "A", "B", "C", "D", "E", "F", "G", "H", "I", "L", "K", "L", "M", "N", "O"};
-        
-        valueRange.Values = new List<IList<object>> {objectList };
-        
-        var appendRequest = service.Spreadsheets.Values.Append(valueRange, SpreadsheetId, range);
-        Debug.Log("Created request");
-        appendRequest.ValueInputOption = Google.Apis.Sheets.v4.SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
-        //Debug.Log("Set input option");
-        var appendResponse = appendRequest.Execute();
-        //Debug.Log("executed");
-    }
+  
 }
